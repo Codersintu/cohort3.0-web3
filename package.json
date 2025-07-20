@@ -1,0 +1,19 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "in this file i will notes everything about blockchain ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codersintu/blockchain_start.git"
+  },
+  "author": "sintu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codersintu/blockchain_start/issues"
+  },
+  "homepage": "https://github.com/Codersintu/blockchain_start#readme"
+}
