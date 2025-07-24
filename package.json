@@ -1,6 +1,7 @@
 {
   "name": "blockchain",
   "version": "1.0.0",
+   "type": "module",
   "description": "in this file i will notes everything about blockchain ",
   "main": "index.js",
   "scripts": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Codersintu/blockchain_start/issues"
   },
-  "homepage": "https://github.com/Codersintu/blockchain_start#readme"
+  "homepage": "https://github.com/Codersintu/blockchain_start#readme",
+  "dependencies": {
+    "@noble/ed25519": "^2.3.0",
+    "bip39": "^3.1.0"
+  }
 }
