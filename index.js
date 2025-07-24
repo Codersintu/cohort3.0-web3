@@ -20,8 +20,11 @@
 // main()
 
 
-import  {generateMnemonic} from  'bip39';
+//mnemonic
+import  {generateMnemonic, mnemonicToSeedSync} from  'bip39';
 
 // Generate a 12-word mnemonic
 const mnemonic = generateMnemonic();
 console.log('Generated Mnemonic:', mnemonic);
+const seed=mnemonicToSeedSync(mnemonic)
+console.log(seed)

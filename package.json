@@ -1,7 +1,7 @@
 {
   "name": "blockchain",
   "version": "1.0.0",
-   "type": "module",
+  "type": "module",
   "description": "in this file i will notes everything about blockchain ",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/Codersintu/blockchain_start#readme",
   "dependencies": {
     "@noble/ed25519": "^2.3.0",
-    "bip39": "^3.1.0"
+    "@solana/web3.js": "^1.98.2",
+    "bip39": "^3.1.0",
+    "bs58": "^6.0.0",
+    "tweetnacl": "^1.0.3"
   }
 }
