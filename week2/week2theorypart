@@ -80,3 +80,28 @@ Asymmetric encryption: Different keys are used for encryption (public key) and d
 <!-- Next topic -->
 Asymetric encryption
 <!-- coding part-5 go to week2.js -->
+<!--  -->
+A miner is a computer (or person running the computer) that does heavy calculations to keep the Bitcoin network running.
+Miners verify transactions (like when someone sends BTC from India to the US).
+They add those transactions into a block (like a page in a digital notebook).
+Once the block is full and solved, it’s added to the blockchain (public record)
+<!--  -->
+Example:
+Suppose you want to send 0.01 BTC to your friend.
+That transaction goes to the Bitcoin network.
+Miners compete to solve a math puzzle (Proof of Work).
+First miner who solves it gets:
+Transaction fees from your transfer.
+Block reward (currently 3.125 BTC as of April 2024 halving).
+
+<!-- -->
+Asymetric Encryption
+Asymmetric encryption, also known as public-key cryptography, is a type of encryption that uses a pair of keys: a public key and a private key. The keys are mathematically related, but it is computationally infeasible to derive the private key from the public key.
+Public Key: The public key is a string that can be shared openly
+Private Key: The private key is a secret cryptographic code that must be kept confidential. It is used to decrypt data encrypted with the corresponding public key or to create digital signatures.
+Common Asymmetric Encryption Algorithms:
+RSA - Rivest–Shamir–Adleman
+ECC - Elliptic Curve Cryptography (ECDSA) - ETH and BTC
+EdDSA - Edwards-curve Digital Signature Algorithm  - SOL
+
+
