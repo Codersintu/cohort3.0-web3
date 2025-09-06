@@ -42,6 +42,41 @@ It’s easier to encode data so it is more human readable . Some common encoding
 <!--  -->
 1.Ascii
   1 character = 7 bits
-  <!-- coding part here go to week2.js file -->
+  <!-- coding part-1 go to week2.js file -->
 <!--  -->
 <!--  -->
+2.Hex
+1 character = 4 bits
+A single hex character can be any of the 16 possible values: 0-9 and A-F.
+<!-- coding part-2 go to week2.js file -->
+<!--  -->
+Base64
+1 character = 6 bits
+Base64 encoding uses 64 different characters (A-Z, a-z, 0-9, +, /), which means each character can represent one of 64 possible values
+<!-- coding part-3 go to week2.js file -->
+<!--  -->
+Base58
+It is similar to Base64 but uses a different set of characters to avoid visually similar characters and to make the encoded output more user-friendly
+Base58 uses 58 different characters:
+Uppercase letters: A-Z (excluding I and O)
+Lowercase letters: a-z (excluding l)
+Numbers: 1-9 (excluding 0)
++ , /
+<!-- coding part4 go to week2.js -->
+<!-- Next topic -->
+Hashing
+Hashing is a process of converting data (like a file or a message) into a fixed-size string of characters, which typically appears random. 
+after hashing text you cannot decrypt.
+Common hashing algorithms - SHA-256, MD5
+<!-- Next topic -->
+Encryption
+Encryption is the process of converting plaintext data into an unreadable format, called ciphertext, using a specific algorithm and a key. The data can be decrypted back to its original form only with the appropriate key.
+Key Characteristics:
+Reversible: With the correct key, the ciphertext can be decrypted back to plaintext.
+Key-dependent: The security of encryption relies on the secrecy of the key.
+Two main types:
+Symmetric encryption: The same key is used for both encryption and decryption.
+Asymmetric encryption: Different keys are used for encryption (public key) and decryption (private key).
+<!-- Next topic -->
+Asymetric encryption
+<!-- coding part-5 go to week2.js -->
